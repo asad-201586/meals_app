@@ -61,7 +61,7 @@ class CategoriesScreen extends ConsumerWidget {
           children: [
             Text('id: ${data.id}',style: const TextStyle(color: Colors.white),),
             Text('title: ${data.title}',style: const TextStyle(color: Colors.white),),
-            Text('category: ${data.category}',style: const TextStyle(color: Colors.white),),
+            //Text('category: ${data.category}',style: const TextStyle(color: Colors.white),),
           ],
         ),
       ),
